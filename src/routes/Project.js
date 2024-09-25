@@ -24,7 +24,7 @@ const Project = () => {
       name: "Portfolio App",
       description:
         "A React.js and Bootstrap-based portfolio app efficiently combines modern web technologies and responsive design principles to create a professional, user-friendly platform for showcasing an individual’s work and achievements. With React’s component-based structure and Bootstrap’s styling and layout tools, the app is both functional and visually appealing, providing a solid foundation for any personal or professional portfolio.",
-      codeUrl: "https://github.com/tarab15/movie-app-react",
+      codeUrl: "https://github.com/tarab15/portfolio-app",
       imageIndex: 1,
     },
     {
