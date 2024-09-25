@@ -1,0 +1,27 @@
+.hanging-card {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .hanging-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80%;
+    height: 10px;
+    background-color: #007bff;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }

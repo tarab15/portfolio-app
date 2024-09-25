@@ -1,0 +1,30 @@
+.card:hover {
+    box-shadow: rgba(233, 242, 244, 0.25) 0 8px 15px;
+  transform: translateY(-5px);
+  }
+  
+
+  .custom-modal .modal-dialog {
+    max-width: 600px; /* Adjust the width */
+    margin: 1.75rem auto; /* Center the modal */
+  }
+  
+  .custom-header {
+    background-color: #213442; /* Custom header background color */
+    border-bottom: 1px solid #dee2e6; /* Custom border */
+    text-align: center;
+  }
+  
+  .custom-body {
+    background-color: #000; /* Custom body background color */
+  }
+  
+  .custom-footer {
+    background-color: #f8f9fa; /* Custom footer background color */
+    border-top: 1px solid #dee2e6; /* Custom border */
+  }
+  
+  /* Custom close button */
+  .custom-modal .close {
+    color: #000; /* Custom color */
+  }
