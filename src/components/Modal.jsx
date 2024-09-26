@@ -7,9 +7,9 @@ function MyModal(props) {
     color: "#162938",
     borderBottom: "1px solid #dee2e6",
     display: "flex",
-    "justify-content": "center",
-    "align-items": "center",
-    "text-align": "center",
+    "justifyContent": "center",
+    "alignItems": "center",
+    "textAlign": "center",
     fontSize: "10%",
     fontWeight:"bold"
   };
@@ -17,14 +17,14 @@ function MyModal(props) {
     backgroundColor: "#E5E5E5",
     color: "#6C757D",
     margin: "2%",
-    "text-align": "center",
+    "textAlign": "center",
   };
 
   const footerStyle = {
     backgroundColor: "#E5E5E5",
     borderTop: "1px solid #dee2e6",
     display: "flex",
-    "justify-content": "right",
+    "justifyContent": "right",
   };
   return (
     <Modal
