@@ -29,8 +29,8 @@ const Home = () => {
             <div
               style={{
                 display: "flex",
-                "justify-content": "center",
-                "align-items": "center",
+                "justifyContent": "center",
+                "alignItems": "center",
                 height: "200px",
               }}
             >
